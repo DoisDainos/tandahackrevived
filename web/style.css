@@ -51,9 +51,14 @@ body {
   grid-template-columns: auto;
   background-color: #fff;
   margin-top: 15px;
+  font-size: 15px;
 }
 
 .feed-item {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px 10px 5px;
+  border-bottom: 1px solid grey;
+}
+
+.feed-item:last-of-type {
+  border-bottom: 0;
 }
