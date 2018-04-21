@@ -35,6 +35,7 @@ body {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding: 5px;
 }
 
 .grid-item:first-of-type {
@@ -50,4 +51,9 @@ body {
   grid-template-columns: auto;
   background-color: #fff;
   margin-top: 15px;
+}
+
+.feed-item {
+  padding-left: 10px;
+  padding-right: 10px;
 }
